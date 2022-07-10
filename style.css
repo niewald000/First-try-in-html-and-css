@@ -1,0 +1,102 @@
+.avatar{
+	width: 150px;
+	height: 150px;
+	border: 3px solid cornflowerblue;
+}
+
+section, header{
+	padding: 10px 60px 20px 60px;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 60px;
+}
+
+.person{
+	padding-left: 5px;
+	align-content: flex-start;
+}
+
+
+.personlist{
+	list-style: none;
+}
+
+.personlist li{
+	margin-bottom: 5px;
+}
+
+body {
+	font-family: arial;
+	background-color: aliceblue;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.icon{
+	background-color: cornflowerblue;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	padding: 5px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.hobbies{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+.hobbies li{
+	width: 50%;
+	display: flex;
+	align-items: flex-start;	
+}
+
+.hobbies div{
+	margin-left: 10px;
+}
+
+p{
+	line-height: 1,75;
+}
+
+.circle{
+	border-radius: 50%;
+}
+
+.channelbutton{
+	border: 2px solid cornflowerblue;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 10px;
+	border-radius: 26px;
+	transition: background-color 1s, color 1s;
+	box-shadow: 0 0 20px grey; 
+}
+
+.channelbutton:hover{
+	color: white;
+	background-color: cornflowerblue;
+}
+
+.main{
+	align-content: center;
+	width: 960px;
+	box-shadow: 0 0 40px black;
+	margin: auto 0;
+	background-color: white;
+	border-radius: 5%;
+	
+}
